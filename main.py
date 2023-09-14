@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 OPENAI_KEY = os.getenv('OPENAI_KEY')
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 engine = pyttsx3.init()
 
